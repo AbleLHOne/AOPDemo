@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F64B458421D79CF9000D15DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64B458321D79CF9000D15DA /* main.m */; };
+		F64B458C21D79D1A000D15DA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = F64B458B21D79D1A000D15DA /* Dog.m */; };
+		F64B458F21D79EC5000D15DA /* AspectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F64B458E21D79EC5000D15DA /* AspectProxy.m */; };
+		F64B459621D7A10D000D15DA /* AuditingInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = F64B459521D7A10D000D15DA /* AuditingInvoker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		F64B458021D79CF9000D15DA /* forwardInvocationDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = forwardInvocationDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64B458321D79CF9000D15DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F64B458A21D79D1A000D15DA /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		F64B458B21D79D1A000D15DA /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		F64B458D21D79EC5000D15DA /* AspectProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AspectProxy.h; sourceTree = "<group>"; };
+		F64B458E21D79EC5000D15DA /* AspectProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectProxy.m; sourceTree = "<group>"; };
+		F64B459321D79F98000D15DA /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		F64B459421D7A10D000D15DA /* AuditingInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuditingInvoker.h; sourceTree = "<group>"; };
+		F64B459521D7A10D000D15DA /* AuditingInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuditingInvoker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				F64B458321D79CF9000D15DA /* main.m */,
+				F64B458A21D79D1A000D15DA /* Dog.h */,
+				F64B458B21D79D1A000D15DA /* Dog.m */,
+				F64B458D21D79EC5000D15DA /* AspectProxy.h */,
+				F64B458E21D79EC5000D15DA /* AspectProxy.m */,
+				F64B459321D79F98000D15DA /* Invoker.h */,
+				F64B459421D7A10D000D15DA /* AuditingInvoker.h */,
+				F64B459521D7A10D000D15DA /* AuditingInvoker.m */,
 			);
 			path = forwardInvocationDemo;
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F64B458C21D79D1A000D15DA /* Dog.m in Sources */,
 				F64B458421D79CF9000D15DA /* main.m in Sources */,
+				F64B458F21D79EC5000D15DA /* AspectProxy.m in Sources */,
+				F64B459621D7A10D000D15DA /* AuditingInvoker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
